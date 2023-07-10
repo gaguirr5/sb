@@ -1,0 +1,23 @@
+1. The man command shows you the manual documents for each command
+You can scroll down using the arrow keys and get out using the letter q.
+
+2. The -a flag allows you to see hidden files. The -l flag shows you a the list
+of files/directories vertically with additional information.
+
+3. You jump between words using ctrl+arrow key(left or right).
+
+4. You get to the end of a terminal line by using ctrl+e.
+
+5. You move to the beggining of the terminal by using ctrl+a.
+
+6. You can delete words up to the cursor by using ctrl+w or ctrl+del.
+
+7. A terminal display information and recieves it. A shell interprets and executes commands. 
+
+8. Absolute path is the file location starting from the root directory.
+
+9. The relative path is the file location from your current location.
+
+10. A flag is allows a user to enhance commands. rm -rf, ls -l, and cp -r.
+
+11. The -r is force removing directories and their contents recursively and the -f removes the prompt and ignores nonexistent files and arguments.
