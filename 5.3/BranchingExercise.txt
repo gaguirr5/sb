@@ -1,0 +1,22 @@
+Part 1
+1. git branch <branch name>
+2. Fast forward is straight forward, recursive required fixing conflicts
+3. git checkout <different_branch>
+4. git branch -d <branch name>      //deletes branch if merged
+    git branch -D <branch name>     //deletes branch regardless of merged
+5. Merge conflicts happend when two files both have changes and merge is trying to take place
+
+Part 2
+mkdir Part2
+cd Part2
+git init
+echo 'code' > file1.txt
+git add file1.txt
+git commit -m 'added file'
+git checkout -b Part3
+code . //make changes
+git add file1.txt
+git commit -m 'added file1 to Part3'
+git checkout master
+//make changes
+git merge Part3
